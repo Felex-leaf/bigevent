@@ -21,9 +21,6 @@ $(() => {
   });
 
   //根目录优化
-  $.ajaxPrefilter((options) => {
-    options.url = 'http://ajax.frontend.itheima.net' + options.url;
-  });
 
   //resgiter form提交事件
   $('#resgiterForm').submit(function (e) {
