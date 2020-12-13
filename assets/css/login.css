@@ -5,7 +5,7 @@ body {
   width: 100%;
 }
 body {
-  background: url(/assets/images/login_bg.jpg) no-repeat center / cover;
+  background: url(/bigevent/assets/images/login_bg.jpg) no-repeat center / cover;
 }
 .layui-main {
   height: 100%;
@@ -24,7 +24,7 @@ body {
 }
 .loginWrap .title {
   height: 60px;
-  background: url(/assets/images/login_title.png) no-repeat center;
+  background: url(/bigevent/assets/images/login_title.png) no-repeat center;
 }
 .loginWrap .layui-form {
   padding: 0 30px;

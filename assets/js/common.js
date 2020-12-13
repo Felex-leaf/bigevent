@@ -1,5 +1,5 @@
 if (!localStorage.getItem('token') && !location.href.includes('/login'))
-  location.href = '/home/login.html';
+  location.href = '/bigevent/home/login.html';
 $(() => {
   $.ajaxPrefilter((options) => {
     options.url = 'http://ajax.frontend.itheima.net' + options.url;
@@ -13,7 +13,7 @@ $(() => {
           xhr.responseJSON.status !== 0 &&
           xhr.responseJSON.message !== '获取用户基本信息成功！'
         ) {
-          location.href = '/home/login.html';
+          location.href = '/bigevent/home/login.html';
         }
       };
     }
